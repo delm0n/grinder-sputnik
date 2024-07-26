@@ -1,7 +1,7 @@
 <template>
   <section id="comparison">
     <div
-      :data-bg="'/new-site-vue/build//images/comparison/bg-4.' + getWebp"
+      :data-bg="'new-site-vue/build//images/comparison/bg-4.' + getWebp"
       class="comparison-bg lazy"
     >
       <div class="container">

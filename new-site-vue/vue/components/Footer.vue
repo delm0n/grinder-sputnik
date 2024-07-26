@@ -55,7 +55,7 @@
 
         <div class="footer__column-button">
           <a
-            :href="opt ? '/opt' : '/'"
+            :href="'/'"
             :class="[!isTest ? ' button' : 'button']"
             class="footer__btn"
             >{{ opt ? "Купить оптом" : "Купить в розницу" }}</a

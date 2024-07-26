@@ -4,7 +4,7 @@
       <div class="dop-item__img">
         <div v-if="!!dop.img" class="dop-img">
           <img
-            :src="'/new-site-vue//build/images/dops/' + dop.img + webp"
+            :src="'new-site-vue//build/images/dops/' + dop.img + webp"
             :alt="dop.name"
           />
         </div>

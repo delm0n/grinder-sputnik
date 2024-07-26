@@ -17,9 +17,9 @@
       <div class="img-wrap pdf-icon">
         <picture
           ><source
-            srcset="/new-site-vue/build/images/src/pdf-icon.webp"
+            srcset="new-site-vue/build/images/src/pdf-icon.webp"
             type="image/webp" />
-          <img src="/new-site-vue/build/images/src/pdf-icon.png" alt="#"
+          <img src="new-site-vue/build/images/src/pdf-icon.png" alt="#"
         /></picture>
       </div>
       <a download href="/uploadupdate/instruction.pdf">Инструкция</a>

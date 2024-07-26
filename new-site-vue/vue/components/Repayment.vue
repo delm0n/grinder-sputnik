@@ -122,7 +122,7 @@ export default {
     ...mapGetters(["getWebp"]),
 
     getBg() {
-        return window.innerWidth > 576 ? '/new-site-vue/build/images/repayment/bg.' + this.getWebp : '/new-site-vue/build/images/repayment/bg-mob.' + this.getWebp 
+        return window.innerWidth > 576 ? 'new-site-vue/build/images/repayment/bg.' + this.getWebp : 'new-site-vue/build/images/repayment/bg-mob.' + this.getWebp 
     }
   },
 

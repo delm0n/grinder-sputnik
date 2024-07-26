@@ -64,7 +64,7 @@
               <picture>
                 <source
                   :srcset="
-                    '/new-site-vue/build/images/header/grinder' +
+                    'new-site-vue/build/images/header/grinder' +
                     (getWebp == 'webp' ? '.webp' : '.png')
                   "
                   media="(min-width: 1367px)"
@@ -72,7 +72,7 @@
 
                 <img
                   :src="
-                    '/new-site-vue/build/images/header/grinder@05x' +
+                    'new-site-vue/build/images/header/grinder@05x' +
                     (getWebp == 'webp' ? '.webp' : '.png')
                   "
                   :alt="getMainItem.name"
@@ -132,11 +132,7 @@ export default {
 
 .header-main {
   overflow: hidden;
-  padding: 40px 0 140px;
-
-  @media (max-width: 768px) {
-    padding: 40px 0 80px;
-  }
+  padding: 40px 0;
 
   .grid-box {
     display: grid;

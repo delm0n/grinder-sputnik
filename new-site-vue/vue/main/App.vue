@@ -11,7 +11,7 @@
     <made />
     <model />
     <dops />
-    <repayment />
+    <!-- <repayment /> -->
     <video-review />
     <faq />
     <feedback />
@@ -43,7 +43,7 @@ import ModalTinkoff from "../components/ModalTinkoff.vue";
 import ModalSber from "../components/ModalSber.vue";
 // import Nozzle from "../components/Nozzle.vue";
 // import MyVideo from "../components/Video.vue";
-import Repayment from "../components/Repayment.vue";
+// import Repayment from "../components/Repayment.vue";
 import TinkoffModal from "../components/TinkoffModal.vue";
 import Comparison from "../components/Comparison.vue";
 import Things from "../components/Things-v2.vue";
@@ -86,7 +86,7 @@ export default {
     //   import("../components/TinkoffBlock.vue")
     // ),
 
-    Repayment,
+    // Repayment,
     Question: defineAsyncComponent(() => import("../components/Question.vue")),
     Model,
     Faq: defineAsyncComponent(() => import("../components/FAQ.vue")),
